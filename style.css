@@ -1,11 +1,9 @@
 body {
+    height: 100vh;
     margin: 0;
-    font-family: "Roboto";
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex: 1 1 0;
-    /* text-align: center; */
 }
 
 ul {
@@ -29,17 +27,15 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
-    /* flex-grow: 2; */
+    flex: 1;
+    justify-content: space-between;
 }
 
 .hero-text {
     display: flex;
-
     background-color: #1F2937;
     color: white;
 }
-
-.info {}
 
 .img-containers {
     display: flex;
@@ -49,18 +45,61 @@ ul {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote-container {
+    width: 500px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
 }
 
 .signup-container {
     background-color: #3882F6;
+    color: white;
     display: flex;
-    justify-content: center;
-    width: 700px;
-    height: 100px;
+    align-items: center;
+    gap: 120px;
+    padding: 15px 70px;
+    border-radius: 7px;
+}
+
+.signup-text h1 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.signup-text p {
+    margin-top: 10px;
+    font-size: 15px;
+
 }
 
 .footer {
     text-align: center;
     background-color: #1F2937;
     color: white;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 25px;
+}
+
+.header,
+.footer {
+    padding: 25px;
 }
