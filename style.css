@@ -26,13 +26,15 @@ button {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    color: white;
-    padding: 20px 80px 0px 80px;
+    color: #F9FAF8;
+    /* padding: 20px 100px 0px 100px; */
+    padding: 20px 10% 0 10%;
+    gap: 30px;
 }
 
 .logo {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .header-links {
@@ -51,23 +53,26 @@ button {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    /* align-items: center; */
-    padding: 60px 20px 90px 20px;
+    align-items: center;
+    /* padding: 60px 20px 90px 20px; */
+    padding: 75px 10% 90px 10%;
     gap: 30px;
 }
 
 .hero-text {
     width: 400px;
-    color: white;
 }
 
 .hero-text h1 {
-    margin-bottom: 0;
-    font-size: 35px;
+    margin: 0;
+    font-weight: 900;
+    font-size: 38px;
+    color: #F9FAF8;
 }
 
 .hero-text p {
-    margin-top: 10px;
+    margin-top: 18px;
+    color: #E5E7EB
 }
 
 .hero-text button {
@@ -83,13 +88,19 @@ button {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: fit;
+    object-fit: cover;
 }
 
 .info-section {
     text-align: center;
     padding: 35px;
 }
+
+.info-section h1 {
+    color: #1F2937;
+    font-weight: 900;
+}
+
 
 .info-container {
     display: inline-block;
@@ -108,7 +119,7 @@ button {
 .info-img {
     width: 100%;
     height: 100%;
-    object-fit: fit;
+    object-fit: fill;
 }
 
 .quote-section {
@@ -119,7 +130,18 @@ button {
 }
 
 .quote-container {
-    width: 500px;
+    width: 600px;
+}
+
+.quote-text {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-name {
+    float: right;
+    font-weight: bold;
 }
 
 .signup-section {
